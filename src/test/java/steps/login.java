@@ -30,6 +30,10 @@ public class login extends baseuse {
         driver.findElement(By.xpath("//input[@type='submit']")).click();
         Thread.sleep(5000);
     }
+    
+    public void setMethod() {
+        System.out.println("Hey Priyanka");
+    }
 
 
 }
